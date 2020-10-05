@@ -1,3 +1,11 @@
+if true
+  puts "Even!"
+else
+  puts "Odd!"
+end
+
+
+
 current_second = Time.now 
 current_second.to.i
 if current_second % 2 == 0 
