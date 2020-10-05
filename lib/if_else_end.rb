@@ -1,4 +1,4 @@
-current_second = time.now 
+current_second = Time.now 
 current_second.to.i
 if current_second % 2 == 0 
   puts "Even"
